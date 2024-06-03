@@ -6,7 +6,7 @@ export const Logo = () => {
     return (
         <div>
             <a href="">
-                <Icon iconId={'code'}/>
+                <Icon iconId={'codeSvg'}/>
             </a>
         </div>
     )
