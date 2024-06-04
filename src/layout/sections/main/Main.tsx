@@ -9,8 +9,8 @@ export const Main = () => {
             <FlexWrapper align={"center"} justify={"space-around"}>
             <div>
                 <span>Hi There</span>
-                <h2>I am Maryia Zinkevich.</h2>
-                <h1>A Web Developer.</h1>
+                <Name>I am Maryia Zinkevich.</Name>
+                <MainTitle>A Web Developer.</MainTitle>
             </div>
             <Photo  src={photo} alt=""/>
         
@@ -28,6 +28,12 @@ const Photo = styled.img`
 width: 390px;
 height: 388px;
 object-fit: cover;
+`
+
+const MainTitle = styled.h1`
+`
+
+const Name = styled.h2`
 `
 
 // h1 is very necessary for promotion. ceo ai scrolling trough h1 tag and searching for separate words 
