@@ -9,11 +9,11 @@ export const Skills = () => {
     return (
         <StyledSkills>
             <SectionTitle>My Skills</SectionTitle>
-            <FlexWrapper>
+            <FlexWrapper wrap={"wrap"}justify={"space-between"} >
                 <Skill iconId={"codeSvg"} 
                     title={"HTML5"} 
                     description={"‘War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace.’"}/>
-                    
+
                 <Skill iconId={"cssSVG"} 
                     title={"CSS3"} 
                     description={"‘Freedom is slavery. Freedom is slavery. Freedom is slavery. Freedom is slavery. Freedom is slavery. Freedom is slavery. Freedom is slavery. Freedom is slavery.’"}/>
@@ -22,17 +22,17 @@ export const Skills = () => {
                     title={"REACT"} 
                     description={"‘Ignorance is strength. Ignorance is strength. Ignorance is strength. Ignorance is strength. Ignorance is strength. Ignorance is strength. Ignorance is strength. Ignorance is strength.’"}/>
 
-                <Skill iconId={"codeSvg"} 
-                    title={"HTML5"} 
+                <Skill iconId={"typescriptSVG"} 
+                    title={"typescript"} 
                     description={"‘War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace.’"}/>
 
-                <Skill iconId={"codeSvg"} 
-                    title={"HTML5"} 
-                    description={"‘War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace.’"}/>
+                <Skill iconId={"styledcomponentsSVG"} 
+                    title={"styled components"} 
+                    description={"‘Freedom is slavery. Freedom is slavery. Freedom is slavery. Freedom is slavery. Freedom is slavery. Freedom is slavery. Freedom is slavery. Freedom is slavery.’"}/>
 
-                <Skill iconId={"codeSvg"} 
-                    title={"HTML5"} 
-                    description={"‘War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace.’"}/>
+                <Skill iconId={"figmaSVG"} 
+                    title={"Figma"} 
+                    description={"‘Ignorance is strength. Ignorance is strength. Ignorance is strength. Ignorance is strength. Ignorance is strength. Ignorance is strength. Ignorance is strength. Ignorance is strength.’"}/>
             </FlexWrapper>
         </StyledSkills>
     );
