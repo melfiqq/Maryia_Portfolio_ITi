@@ -10,11 +10,29 @@ export const Skills = () => {
         <StyledSkills>
             <SectionTitle>My Skills</SectionTitle>
             <FlexWrapper>
-                <Skill/>
-                <Skill/>
-                <Skill/>
-                <Skill/>
-                <Skill/>
+                <Skill iconId={"codeSvg"} 
+                    title={"HTML5"} 
+                    description={"‘War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace.’"}/>
+                    
+                <Skill iconId={"cssSVG"} 
+                    title={"CSS3"} 
+                    description={"‘Freedom is slavery. Freedom is slavery. Freedom is slavery. Freedom is slavery. Freedom is slavery. Freedom is slavery. Freedom is slavery. Freedom is slavery.’"}/>
+
+                <Skill iconId={"reactSVG"} 
+                    title={"REACT"} 
+                    description={"‘Ignorance is strength. Ignorance is strength. Ignorance is strength. Ignorance is strength. Ignorance is strength. Ignorance is strength. Ignorance is strength. Ignorance is strength.’"}/>
+
+                <Skill iconId={"codeSvg"} 
+                    title={"HTML5"} 
+                    description={"‘War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace.’"}/>
+
+                <Skill iconId={"codeSvg"} 
+                    title={"HTML5"} 
+                    description={"‘War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace.’"}/>
+
+                <Skill iconId={"codeSvg"} 
+                    title={"HTML5"} 
+                    description={"‘War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace. War is peace.’"}/>
             </FlexWrapper>
         </StyledSkills>
     );

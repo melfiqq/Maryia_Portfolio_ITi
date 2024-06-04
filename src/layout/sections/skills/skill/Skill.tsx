@@ -2,12 +2,18 @@ import React from "react";
 import styled from "styled-components";
 import { Icon } from "../../../../components/icon/Icon";
 
-export const Skill = () => {
+type SkillsPropsType = {
+    iconId: string;
+    title: string;
+    description: string;
+}
+
+export const Skill = (props: SkillsPropsType) => {
     return (
         <StyledSkill>
-           <Icon iconId={"codeSvg"}/>
-            <SkillTitle>HTMLS</SkillTitle>
-            <SkillText>gg</SkillText>
+           <Icon iconId={props.iconId}/>
+            <SkillTitle>{props.title}</SkillTitle>
+            <SkillText>{props.description}</SkillText>
          </StyledSkill>
     )
 }
