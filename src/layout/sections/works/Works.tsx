@@ -16,7 +16,7 @@ export const Works = () => {
         <StyledWorks>
             <SectionTitle>My Work</SectionTitle>
             <Menu menuItems={worksItems}/>
-            <FlexWrapper>
+            <FlexWrapper justify="space-around">
                 <Work title={"Social Network"} 
                 text={"OOOOOOOOOOOOOOOOOOOOO"} 
                 src={socialImg}/>
